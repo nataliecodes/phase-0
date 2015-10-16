@@ -1,0 +1,75 @@
+html {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a:link { color: #800080; }
+a:visited { color: #ff0000; }
+
+li { height: 3.2em; }
+
+.two-columns {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 15px;
+}
+
+.link-descriptor { font-size: 0.6em; }
+
+.center-align { text-align: center; }
+
+.f-bold { font-weight: bold; }
+
+h1 {
+    font-size: 1.1em;
+    margin-bottom:0.25em
+}
+
+h2 {
+    font-size: 0.8em;
+    margin: 0px;
+}
+
+h3 {font-size:0.5 em;
+    margin-top: 0px
+}
+
+.f-xxl { font-size: 2em; }
+.f-xs { font-size: 0.8em; }
+.f-xxs { font-size: 0.5em; }
+
+.no-padding {
+    padding: 0px;
+}
+
+.line-break {
+    border-top: 1px solid grey;
+}
+
+.line-spacing-top { margin-top:1em; }
+.line-spacing-no-top { margin-top:0em; }
+.line-spacing-bottom { margin-bottom:1em; }
+.line-spacing-no-bottom { margin-bottom:0em; }
+
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+    In the most basic sense, you have to know the relative address of the stylesheet - if it's up a directory from your html file. You also have to be sure to include it in the <link> tag, along with the "rel" and "ref" elements.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+    We definitely googled a few different positioning tools. That was sort of our only "trick." The most difficult positioning was with the list of links. We started by applying spacing to each li item, and then trying to adjust the link descriptions. But, the two columns didn't line up completely. We could tell that Berkshire Hathaway had used a table, but we didn't copy that format because we knew we shouldn't include a table in our code.
+
+What CSS did you use to modify the element style (like size, color, etc.)?
+
+    We used: color, background-color, height, font-size, text-align, font-weight, margin, and padding.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+    We started with a mix of classes and ids, but then realized that we should use classes as much as possible because ids can only be used once. We ended up only with a few span id's (for the "B," "H," and "INC." in the first line of the page). We used classes for font sizes, boldness, and margins (etc.) so that we could apply this formatting across multiple tags.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+    I can't say this with 100% confidence, but our code did have some major advantages over BH's. We used a separate stylesheet instead of performing inline styling (i.e. how they size their first line of text). We also didn't use a table or <hr>, which is preferred as well. Their page doesn't have any real mobile adaptation, either, but ours appears to adapt a bit better.
+
+*/
