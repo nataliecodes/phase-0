@@ -1,12 +1,12 @@
-![imgs/1-Change-colors.png](1. Change colors)
-![imgs/2-Column.png](2. Column)
-![imgs/3-Row.png](3. Row)
-![imgs/4-Make-equidistant.png](4. Make equidistant)
-![imgs/5-Squares.png](5. Squares)
-![imgs/6-Footer.png](6. Footer)
-![imgs/7-Header.png](7. Header)
-![imgs/8-Sidebar.png](8. Sidebar)
-![imgs/9-Get-creative.png](9. Get creative)
+![1. Change colors](imgs/1-Change-colors.png)
+![2. Column](imgs/2-Column.png)
+![3. Row](imgs/3-Row.png)
+![4. Make equidistant](imgs/4-Make-equidistant.png)
+![5. Squares](imgs/5-Squares.png)
+![6. Footer](imgs/6-Footer.png)
+![7. Header](imgs/7-Header.png)
+![8. Sidebar](imgs/8-Sidebar.png)
+![9. Get creative](imgs/9-Get-creative.png)
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 
