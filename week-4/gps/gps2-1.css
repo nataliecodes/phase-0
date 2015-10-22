@@ -1,0 +1,38 @@
+* {
+    font-family: fantasy;
+    background-color: #e8f0ff;
+}
+
+h1 {
+    font-family: Verdana;
+}
+
+h2 {
+    font-family: Verdana;
+}
+
+.center {
+    text-align: center;
+}
+
+.column-1 {
+    padding: 2%;
+    float: left;
+    width: 46%;
+    display: inline-block;
+}
+
+.column-2 {
+    padding: 2%;
+    float: right;
+    width: 46%;
+    display: inline-block;
+}
+
+footer {
+    position: static;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    bottom: 0;
+}
