@@ -25,7 +25,6 @@
   return sum
  end
 
-
 # 3. total refactored solution
 
  def total(numbers)
