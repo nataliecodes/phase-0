@@ -17,6 +17,9 @@ puts 'Are you sure you don\'t prefer ' + bigger_num.to_s + '?'
 
 =begin
 
+4.3.1 Return a Formatted Address: https://github.com/nataliecodes/phase-0/blob/master/week-4/address/my_solution.rb
+4.3.2 Defining Math Methods: https://github.com/nataliecodes/phase-0/blob/master/week-4/define-method/my_solution.rb
+
 How do you define a local variable?
 
   You type in the name of the variable (must start with a lowercase letter or an underscore) and set it equal to a value. That value can be any letters and numbers you want. Make sure you put the variable on the lefthand side of the equal sign, and the value to the right.
