@@ -1,15 +1,12 @@
 # Pad an Array
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge with Bernice Chua.
 
 # I spent [] hours on this challenge.
-
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
-
-
 
 # 0. Pseudocode
 
