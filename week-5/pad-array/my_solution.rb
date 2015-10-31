@@ -115,26 +115,47 @@ end
 
 Were you successful in breaking the problem down into small steps?
 
-  I think we were successful in doing this. My partner broke it down further than I was going to, and I saw the merit to what she did.
+  I think we were successful in doing this. My partner broke
+  it down further than I was going to, and I saw the merit to what she did.
 
-Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+Once you had written your pseudocode, were you able to easily translate
+it into code? What difficulties and successes did you have?
 
-  I think we were pretty good about it. I think the hardest thing was that we didn't previously state that we wanted to use a counter and a for loop. We could have come to the conclusion that we would use those more quickly if we had described iteration in our pseudocode. I think we were really good at differentiating our if/else branches.
+  I think we were pretty good about it. The hardest
+  thing was that we didn't previously state that we wanted
+  to use a counter and a for loop. We could have come to the
+  conclusion that we would use those more quickly if we had
+  described iteration in our pseudocode. I think we were really
+  good at differentiating our if/else branches.
 
-Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+Was your initial solution successful at passing the tests?
+If so, why do you think that is? If not, what were the
+errors you encountered and what did you do to resolve them?
 
-  Our intial solution was not successful at first. First, we needed to explicitly return the values - this was easy to fix. Then, we got errors because we were trying to fork "array[item]" to our array copy (in pad, not pad!) and that did not work. We solved this by using a puts statement. Then, we realized that
+  Our intial solution was not successful at first. First, we
+  needed to explicitly return the values - this was easy to
+  fix. Then, we got errors because we were trying to fork
+  "array[item]" to our array copy (in pad, not pad!) and
+  that did not work. We solved this by using a puts statement.
 
-When you refactored, did you find any existing methods in Ruby to clean up your code?
+When you refactored, did you find any existing methods in
+Ruby to clean up your code?
 
-  We found a few things, but none that really seemed to make our code clearer or more concise.
+  We found a few things, but none that really seemed to make
+  our code clearer or more concise. We refactored by eliminating
+  an extraneous variable - padding - and more easily creating
+  a copy of our array in pad, so that it was non-destructive.
 
 How readable is your solution? Did you and your pair choose descriptive variable names?
 
-  We think our solution is very readable. We tried to make the most obviously descriptive variable names (i.e. "padding").
+  We think our solution is very readable. We tried to make
+  the most obviously descriptive variable names (i.e. "padding").
+  Calling the copied array "copy" also seemed like the right move.
 
 What is the difference between destructive and non-destructive methods in your own words?
 
-  Destructive methods change their objects permanently, while non-destructive methods do not. Non-destructive methods are like different versions of your method.
+  Destructive methods change their objects permanently, while
+  non-destructive methods do not. Non-destructive methods are
+  like different versions of your method.
 
 =end
