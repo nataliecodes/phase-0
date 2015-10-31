@@ -10,9 +10,9 @@
 # This error was analyzed in the README file.
 # --- error -------------------------------------------------------
 
-# def cartman_hates(thing)
-#   puts "What's there to hate about #{thing}?"
-# end
+def cartman_hates(thing)
+  puts "What's there to hate about #{thing}?"
+end
 
 # cartman_hates("his mom")
 
