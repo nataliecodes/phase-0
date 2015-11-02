@@ -64,10 +64,6 @@ end
 #   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
 # end
 
-# def my_hash_sorting_method(source)
-#    source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-# end
-
 # # Identify and describe the Ruby method(s) you implemented.
 #
 #
