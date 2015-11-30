@@ -52,3 +52,35 @@ printList = function(array){
 };
 
 printList(groceryList);
+
+/*
+REFLECTION
+
+What concepts did you solidify in working on this challenge?
+(reviewing the passing of information, objects,
+constructors, etc.)
+
+I solidified a few things:
+1. Accessing information in arrays in JavaScript. I had to
+be sure to select the correct position when editing the
+values.
+2. Something minor - I realized that you can't use string
+interpolation in JavaScript. That hadn't come out before. I
+made variables for the text I needed for the grocery list.
+
+What was the most difficult part of this challenge?
+
+The most difficult part was the issue of using a for loop.
+In order to update the quantity, since there are no built-
+in methods, the new item ended up being repeated 5 times
+because it did it after each list item. That lead me to
+create two different methods for adding and updating items.
+In Ruby, this was easier and cleaner.
+
+Did an array or object make more sense to use and why?
+
+I used an array but honestly didn't even think about using
+an object. I now think that it could have been just as easy
+to use an object.
+
+*/
