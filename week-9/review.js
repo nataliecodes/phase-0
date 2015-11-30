@@ -1,45 +1,3 @@
-// Bingo Challenge
-
-/* Pseudocode
-
-1. Create a method to generate a letter ( b, i, n, g, o) and a number (1-100)
-
-Create a container with the letters in the word 'bingo'
-Create a function to return a random letter from that container
-Create a container with the numbers 1-100
-Create a function to return a random number from that container
-Get those two values to be usable for the next step
-
-2. Check the called column for the number called.
-
-Determine the columns in the board - look for best methods to do this
-Iterate through each column to look for the letter and the number
-
-
-3. If the number is in the column, replace with an 'x'
-
-
-4. Display a column to the console
-
-
-5. Display the board to the console (prettily)
-
-*/
-
-// Initial Solution
-
-
-// #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
-// board = [[47, 44, 71, 8, 88],
-//         [22, 69, 75, 65, 73],
-//         [83, 85, 97, 89, 57],
-//         [25, 31, 96, 68, 51],
-//         [75, 70, 54, 80, 83]]
-
-// new_game = BingoBoard.new(board)
-
-
-// ------------------------------------------------
 
 /* 9.2.1 JavaScript Grocery List
 
@@ -64,23 +22,33 @@ var groceryList = [["apples", 2],
                    ["bread", 5],
                    ["kale", 5]];
 
-addItem = function(item, quantity){
-  for (i = 0; i < groceryList.length; i++){
-    if (groceryList[i] == item){
-      groceryList[i]
+updateItem = function(item, quantity) {
+  for (var i in groceryList) {
+    if (groceryList[i][0] == item) {
+      groceryList[i][1] += quantity;
     };
-    else{
-      groceryList.push([item, quantity])
-    };
+  };
+};
+
+addItem = function(item, quantity) {
+  groceryList.push([item, quantity]);
 };
 
 removeItem = function(item){
   for (i = 0; i < groceryList.length; i++){
-    if (groceryList[i][0] == item)
-      groceryList.splice(i, 1);
-    else
-      console.log("Please enter an existing item to remove.")
+    if (groceryList[i][0] == item) {
+      groceryList.splice(i, 1)
+    };
   };
 };
 
-console.log(groceryList);
+printList = function(array){
+  console.log("My grocery list:");
+  var dash = ': '
+  var bullet = '- '
+  for (var i in groceryList) {
+    console.log(bullet + groceryList[i][0] + dash + groceryList[i][1])
+  };
+};
+
+printList(groceryList);
